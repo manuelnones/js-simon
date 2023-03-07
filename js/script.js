@@ -93,20 +93,26 @@ function isEqual() {
     if (userNumbers.toString() === numbers.toString()) {
         document.writeln(`Hai inserito tutti i numeri correttamente`);
 
-    } else if (userNumbers[0] != numbers[0]) {
-        document.writeln(`Il numero ` + userNumbers[0] + ` non è corretto`);
+    } else {
+        document.writeln(`I numeri non sono corretti `);
+
+    }
+    
+    
+    if (userNumbers[0] != numbers[0]) {
+        document.writeln(userNumbers[0] + ` non è corretto`);
 
     } else if (userNumbers[1] != numbers[1]) {
-        document.writeln(`Il numero ` + userNumbers[1] + ` non è corretto`);
+        document.writeln(userNumbers[1] + ` non è corretto`);
 
     } else if (userNumbers[2] != numbers[2]) {
-        document.writeln(`Il numero ` + userNumbers[2] + ` non è corretto`);
+        document.writeln(userNumbers[2] + ` non è corretto`);
 
     } else if (userNumbers[3] != numbers[3]) {
-        document.writeln(`Il numero ` + userNumbers[3] + ` non è corretto`);
+        document.writeln(userNumbers[3] + ` non è corretto`);
 
     } else if (userNumbers[4] != numbers[4]) {
-        document.writeln(`Il numero ` + userNumbers[4] + ` non è corretto`);
+        document.writeln(userNumbers[4] + ` non è corretto`);
 
     };
 

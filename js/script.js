@@ -56,7 +56,6 @@ function arrayNumbersGenerator(maxNumber, lastNumber) {
 
 
 function contDown() {
-    console.log(timer);
     timer--;
 
 
@@ -110,7 +109,5 @@ function isEqual() {
         document.writeln(`Il numero ` + userNumbers[4] + ` non è corretto`);
 
     };
-
-    console.log(userNumbers);
 
 };
